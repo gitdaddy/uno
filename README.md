@@ -2,6 +2,11 @@
 
 Read me
 
+## CI - Actions
+### Build
+### Test
+### Code-Linter (server folder)
+
 ## To run 
 
 `cd server/ && go run .`
