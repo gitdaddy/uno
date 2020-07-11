@@ -46,9 +46,6 @@ jobs:
    # Run Go-linter for code formatting
    - name: Go-linter
     uses: Jerome1337/golint-action@v1.0.2
-    with:
-      # Path used by golint command
-      golint-path: ../server
   
 # static analysis?
     
