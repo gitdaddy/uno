@@ -43,18 +43,7 @@ jobs:
       working-directory: server
       run: go test -v .
       
-   # Run Go-linter for code formatting
-   - name: Go-linter
-    uses: Jerome1337/golint-action@v1.0.2
-  
-# static analysis?
-    
-      # Runs a single command using the runners shell
-#     - name: Run a one-line script
-#       run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-#     - name: Run a multi-line script
-#       run: |
-#         echo Add other actions to build,
-#         echo test, and deploy your project.
+    # Run Go-linter for code formatting
+    - name: Spellcheck
+      uses: plettich/python_codespell_action@master
+      
