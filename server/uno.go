@@ -5,7 +5,7 @@ import (
 )
 
 ////////////////////////////////////////////////////////////
-// Structs used for the talking with frontend
+// Structs used for the talking with frontend testingmisspelledword
 ////////////////////////////////////////////////////////////
 type Card struct {
 	Number int    `json:"number"`
